@@ -95,7 +95,7 @@ header nav a{
     
 }
 .main-img{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 30px;
 }
 .top-content {
@@ -209,4 +209,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* css for about page starts here -- */
+
+.about{
+    border-bottom: 1px dashed black;
+    padding: 20px;
+}
+
+.about-op-sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-section{
+    width: 45%;
+    height: 460px;
+    border-bottom: 1px dashed black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.more{
+    border: 2px solid black;
+    border-radius: 10px;
+	text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+.work-together{
+    padding: 40px 20px 40px 20px;
+    
+}
+
+.img-section{
+    padding-bottom: 15px;
 }
